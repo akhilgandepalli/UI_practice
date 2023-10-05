@@ -1,0 +1,94 @@
+body{
+    background-color:rgb(237, 242, 242); 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    padding: 10px;
+}
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(0, 106, 255);
+    margin: 0%;
+}
+p{
+    font-size: 28px;
+    color: black;
+    font-weight: 400;
+    padding-right: 2rem;
+    margin: 0%;
+}
+form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 0px grey;
+}
+#bt1{
+    background: rgb(0, 94, 255);
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+#bt2{
+    background: rgb(10, 183, 42);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#email,#pass{
+    padding: 15px;
+    font-style: bold;
+    font-size: 15px;
+    border-radius: 7px;
+    border: 1px groove rgb(220, 219, 219);
+    margin-bottom: 15px;
+}
+a{
+    color:blue;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+.foot{
+    font-size: 15px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+div{
+    height: 1px;
+    width: 400px;
+    background-color: black;
+}
+aside{
+    width: 45%;
+    padding-bottom: 2.5rem;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+div{
+    height: 0.5px;
+    width: 350px;
+    background-color: gray;
+}
