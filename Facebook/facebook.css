@@ -29,7 +29,7 @@ form{
     justify-content: center;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 3px 3px 3px 0px grey;
+    box-shadow: 0px 0px 15px -5px rgb(193, 193, 193);
 }
 #bt1{
     background: rgb(0, 94, 255);
@@ -76,19 +76,14 @@ a{
     margin-left: 20px;
     margin-top: 10px;
 }
-div{
-    height: 1px;
-    width: 400px;
-    background-color: black;
-}
 aside{
     width: 45%;
     padding-bottom: 2.5rem;
     margin-right: 20px;
     margin-bottom: 20px;
 }
-div{
+#line{
     height: 0.5px;
-    width: 350px;
+    width: 360px;
     background-color: gray;
 }

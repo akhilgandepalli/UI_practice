@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>Smiley</title>
+    <style>
+    body{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        aspect-ratio: 1/1;
+        margin-top: 5%;
+        position: relative;
+        height: 60%;
+        width: 25%;
+        border: 1vh solid black;
+        border-radius: 50%;
+        background-color: yellow;
+        box-shadow: 10px 8px 15px -5px;
+    }
+    .eye1{
+        position: absolute;
+        height: 10%;
+        width: 10%;
+        top: 30%;
+        left: 25%;
+        background-color: black;
+        border-radius: 50%;
+    }
+    .eye2{
+        position: absolute;
+        height: 10%;
+        width: 10%;
+        top: 30%;
+        right: 25%;
+        background-color: black;
+        border-radius: 50%;
+    }
+    .smile{
+        position: absolute;
+        height: 40%;
+        width: 50%;
+        top: 35%;
+        left: 25%;
+        border-bottom: 2vh solid black;
+        border-radius: 50%;
+    }
+</style>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="eye1"></div>
+            <div class="eye2"></div>
+            <div class="smile"></div>
+        </div>
+    </div>
+</body>
+</html>
