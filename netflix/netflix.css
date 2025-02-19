@@ -2,13 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .main_page{
     background-image:url(maxresdefault.jpg);
     height: 110vh;
     width: auto;
-    border-bottom: 10px solid rgb(46, 46, 46);
+    margin-bottom: 10px;
+}
+main{
+    background-color: rgb(33, 33, 33);
+}
+.mainOverLay{
+    background: linear-gradient( rgba(0, 0, 0, 0.847), rgba(0, 0, 0, 0.501), rgba(0, 0, 0, 0.858))
 }
 header{
     height: 15vh;
@@ -16,7 +22,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.8);
+    /* background-color: rgba(0, 0, 0, 0.8); */
     padding: 0 25px 0 25px;
 }
 .logo{
@@ -30,6 +36,7 @@ header{
     color: white;
     text-align: center;
     font-size: 16px;
+    border-radius: 5px;
 }
 .top-right{
     display: flex;
@@ -65,11 +72,11 @@ section{
     justify-content: center;
     align-items: center;
     padding: 5vw 5vw 5vh 5vw;
-    background-color: rgba(0, 0, 0, 0.6);
+    /* background-color: rgba(0, 0, 0, 0.6); */
 }
 h1{
     color: white;
-    font-size: 50px;
+    font-size: 48px;
     font-weight: 800;;
 }
 p{
@@ -91,16 +98,16 @@ form{
 }
 input{
     width: 30vw;
-    padding: 20px;
-    font-size: 18px;
+    padding: 18px;
+    font-size: 16px;
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
     border: 0.5px solid grey;
     border-radius: 5px;
 }
 .gtst_btn{
-    width: 15vw;
-    height: 10vh;
+    width: 16vw;
+    height: 9vh;
     font-size: 24px;
     display: flex;
     justify-content: center;
@@ -119,20 +126,40 @@ input{
     align-items: center;
     background-color: black;
     border-bottom: 10px solid rgb(33, 33, 33);
+    padding-left: 12px;
 }
 .p2_text, .p3_text, .p4_text, .p5_text{
-    width: 50vw;
-    height: 100vh;
+    width: 50%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:flex-start;
 }
+.p2Img_cont, .p4Img_cont{
+    width: 45vw;
+    position: relative;
+    z-index: 1;
+}
+.p2Img2{
+    position: absolute;
+    width: 75%;
+    top: 90px;
+    left: 70px;
+}
+.p4Img2{
+    position: absolute;
+    width: 60%;
+    top: 60px;
+    left: 105px;
+}
 .p2_image, .p3_image, .p4_image, .p5_image{
     width: 45vw;
+    position: relative;
+    z-index: 1;
 }
 .Page6{
-    height: 150vh;
+    height: calc(150vh+auto);
     width: auto;
     display: flex;
     flex-direction: column;
@@ -144,20 +171,32 @@ input{
     padding: 10vh;
 }
 .faq{
-    height: 20vh;
-    width: 90vw;
+    height:auto;
+    width: 93vw;
+    background-color: rgb(45, 45, 45);
+    color: white;
+    font-size: 24px;
+    padding: 2vw 2vw;
+    margin-top: 2px;
+}
+summary{
+    /* height: 20vh; */
+    width: 93vw;
+    background-color: rgb(45, 45, 45);
+    color: white;
+    font-size: 24px;
+    padding: 2vw 2vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(45, 45, 45);
-    color: white;
-    font-size: 25px;
-    padding: 0 2vw;
+}
+summary:hover{
+    background-color: rgb(64, 64, 64);
 }
 footer{
     height: 65vh;
     width: auto;
-    padding: 2.5vw;
+    padding: 2.6vw;
     display: flex;
     flex-direction: column;
     justify-content: center;

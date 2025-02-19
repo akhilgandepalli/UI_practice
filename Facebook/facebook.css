@@ -62,6 +62,7 @@ form{
     border-radius: 7px;
     border: 1px groove rgb(220, 219, 219);
     margin-bottom: 15px;
+    outline-color: blue;
 }
 a{
     color:blue;

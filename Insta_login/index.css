@@ -19,7 +19,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 65vh;
+    height: 66vh;
     border: 1px groove rgb(202, 202, 202);
     width: 350px;
 }
@@ -69,7 +69,7 @@ button{
     margin-bottom: 10px;
 }
 p{
-    margin: 0 10px;
+    margin: 0 20px;
     font-size: 14px;
 }
 a{
@@ -86,18 +86,15 @@ a{
     height: 60px;
 }
 #fb{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     color: darkblue;
     font-size: 15px;
     font-weight: 500;
 }
 #forgot{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     font-size: 12px;
     color: darkblue
 }
 #signup{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     font-weight: 500;
     font-size: 14px;
     color: rgb(68, 175, 242);

@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    height:100vh;
+    width: 100vw;
+    background: url(https://media.istockphoto.com/id/1136834725/photo/bedroom-interior-for-mockup-3d-rendering.jpg?b=1&s=612x612&w=0&k=20&c=msDTxYjL-o0Sk02jP7R0LcIM9YXosnudrpOx09RnHhk=);
+    background-repeat:1;
+    background-size: 100%;
+}
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+    padding: 5px 50px;
+    background-color: #35A29F;
+}
+.search-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 15px -5px;
+    border-radius: 30px;
+}
+.search-inp{
+    width: 30vw;
+    padding: 10px;
+    border: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    outline: none;
+}
+.search-btn{
+    padding: 10px;
+    border: none;
+    background-color: #071952;
+    color: white;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.top_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #071952;
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 15px -5px;
+}
+.lang{
+    padding: 14px 20px;
+    font-size: 16px;
+    border:none;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.350);
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px -5px;
+
+}
+.login_btn{
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.350);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px -5px;
+}
+.icon{
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: grey;
+    color: white;
+}
+nav{
+    height: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: #071952a5;
+}
+section{
+    height: 85vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card{
+    height: 200px;
+    width: 350px;
+    background-color: #97feedc9;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card img{
+    height: 200px;
+    width: 175px;
+    border-radius: 10px;
+}
+.card:hover{
+    height: 220px;
+    width: 380px;
+    background-color: #97feed;
+}
+.card img:hover{
+    height: 220px;
+    width: 200px;
+}
+.discription{
+    height: 200px;
+    width: 175px;
+    padding: 30px;
+}
